@@ -1,4 +1,4 @@
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cilfa.fr%2Fen%2Fbest-instagram-accounts-to-learn-french%2F&psig=AOvVaw1ZFOqzJnXYFm515L8RpfId&ust=1601858634783000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCtieDamewCFQAAAAAdAAAAABAD)
+![githubREADME](https://user-images.githubusercontent.com/43521144/95005062-066fa200-05b9-11eb-8a32-dc7c1a66f952.jpg)
 # Make-Me-Famous
 Using Instagram to automate user interaction
 
@@ -37,9 +37,9 @@ Python 3+, Selenium, Chromedriver (has to match Chrome Version)
         self._actions = []
         
 5. Locate comments, creds, and accs.txt-files in the config directory in the project and proceed as followed:
-  5.1 creds_.txt:    Enter your username and password in line 1 and line 2 respectively
-  5.2 comments_.txt: Enter a list of comments (one comment per line)
-  5.3 accs_.txt:     Enter a list of 'popular' user accounts that you aim to get followers from, again, one per line
+-> creds_.txt:    Enter your username and password in line 1 and line 2 respectively
+-> comments_.txt: Enter a list of comments (one comment per line)
+-> accs_.txt:     Enter a list of 'popular' user accounts that you aim to get followers from, again, one per line
 
 6. For the initial User List, Run the following file: ParseAccounts.py
 7. After the users are properly fetched and stored, run the following file after initializing the object ProcessAccountsBot() passing in one of the popular      accounts as a string
