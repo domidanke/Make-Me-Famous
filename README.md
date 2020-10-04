@@ -1,4 +1,5 @@
-![githubREADME](https://user-images.githubusercontent.com/43521144/95005062-066fa200-05b9-11eb-8a32-dc7c1a66f952.jpg)
+![github-readme](https://user-images.githubusercontent.com/43521144/95005096-623a2b00-05b9-11eb-9edc-af0920b0408f.jpg)
+
 # Make-Me-Famous
 Using Instagram to automate user interaction
 
