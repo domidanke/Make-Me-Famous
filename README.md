@@ -37,7 +37,8 @@ Python 3+, Selenium, Chromedriver (has to match Chrome Version)
                 device.clear_actions()
         self._actions = []
         
-5. Locate comments, creds, and accs.txt-files in the config directory in the project and proceed as followed:
+5. Locate constants, comments, creds, and accs.txt-files in the config directory in the project and proceed as followed:
+-> constants.py:  Enter YOUR base URL to the IG_bots - directory followed by a '/'
 -> creds_.txt:    Enter your username and password in line 1 and line 2 respectively
 -> comments_.txt: Enter a list of comments (one comment per line)
 -> accs_.txt:     Enter a list of 'popular' user accounts that you aim to get followers from, again, one per line
