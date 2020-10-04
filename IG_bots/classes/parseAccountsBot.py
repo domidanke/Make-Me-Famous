@@ -43,5 +43,11 @@ class ParseAccountsBot(Bot):
             with open(c.ROOT_URL + 'accounts/' + acc + '/' + acc + '_followers.csv', 'w') as file:
                 for user in users:
                     file.write(user)
-                    file.write('\n')                    
+                    file.write('\n')
+            with open(c.ROOT_URL + 'accounts/' + acc + '/' + acc + '_followed.csv', 'w') as file:
+                print('followed file created')
+            with open(c.ROOT_URL + 'accounts/' + acc + '/' + acc + '_not-followed.csv', 'w') as file:
+                print('not followed file created')
+            with open(c.ROOT_URL + 'accounts/' + acc + '/' + acc + '_private-requested.csv', 'w') as file:
+                print('private requested file created')                    
             wait(10,20)                
