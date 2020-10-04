@@ -30,13 +30,13 @@ Python 3+, Selenium, Chromedriver (has to match Chrome Version)
 3. Install Selenium -> Console: pip install selenium
 4. Find and edit the following file: "py/selenium/webdriver/common/action_chains.py" as followed:
  In lines 89-91, add the 2 line for-loop (This needs to be added to reset keyboard actions after each use; selenium lib will include this fix in the next version)
-    
+    ```
     if self._driver.w3c:
             self.w3c_actions.clear_actions()
             for device in self.w3c_actions.devices:
                 device.clear_actions()
         self._actions = []
-        
+    ``` 
 5. Locate constants, comments, creds, and accs.txt-files in the config directory in the project and proceed as followed:
 -> constants.py:  Enter YOUR base URL to the IG_bots - directory followed by a '/'
 -> creds_.txt:    Enter your username and password in line 1 and line 2 respectively
