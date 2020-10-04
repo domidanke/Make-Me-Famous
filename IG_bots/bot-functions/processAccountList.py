@@ -1,0 +1,1 @@
+import syssys.path.insert(1, '../classes/')from processAccountsBot import ProcessAccountsBotprocessAccountsBot = ProcessAccountsBot([ONE OF THE INITIAL ACCOUNTS YOU USED])processAccountsBot.processAccountList()
