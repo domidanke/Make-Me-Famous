@@ -27,6 +27,7 @@ Python 3+, Selenium, Chromedriver (has to match Chrome Version)
 
 1. Install Python Version 3+
 2. Install Chromedriver and add exe-file to PATH (Windows: https://www.youtube.com/watch?v=dz59GsdvUF8; Mac: https://www.youtube.com/watch?v=XFVXaC41Xac)
+   In bot.py in __init__(self): webdriver.Chrome() for Windows; webdriver.Chrome(executable_path='/usr/local/bin/chromedriver') for Mac
 3. Install Selenium -> Console: pip install selenium
 4. Find and edit the following file: "py/selenium/webdriver/common/action_chains.py" as followed:
  In lines 89-91, add the 2 line for-loop (This needs to be added to reset keyboard actions after each use; selenium lib will include this fix in the next version)
