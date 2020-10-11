@@ -52,7 +52,7 @@ class Bot:
         search = self.browser.find_element_by_class_name("XTCLo.x3qfX")
         wait(2,5)
         self.insert(search, user)
-        wait(5,8)
+        wait(10,12)
         try:
             # sometimes the exact user literal does not find the wanted user
             if (self.browser.find_element_by_class_name("Ap253").text != user):
@@ -60,7 +60,7 @@ class Bot:
                 wait(7,12)
                 return True
             self.browser.find_element_by_class_name("Ap253").click()
-            wait(5,8)
+            wait(10,14)
             return True
         except:
             wait(5,8)
